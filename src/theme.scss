@@ -3,8 +3,8 @@
 
 @include mat-core();
 
-$test-theme-primary: mat-palette($my-primary);
-$test-theme-accept: mat-palette($my-accept);
+$test-theme-primary: mat-palette($mat-yellow);
+$test-theme-accept: mat-palette($mat-gray);
 $test-theme-warn: mat-palette($mat-red);
 $test-theme: mat-light-theme(
   $test-theme-primary,

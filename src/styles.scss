@@ -6,6 +6,9 @@
 //}
 
 
-.test-theme {
-  @include angular-material-theme($test-theme);
+@include angular-material-theme($test-theme);
+
+
+.mat-fix-border-top .mat-form-field-infix {
+  border-top: none !important;
 }
