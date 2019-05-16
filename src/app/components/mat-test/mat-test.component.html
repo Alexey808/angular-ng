@@ -1,6 +1,5 @@
 <mat-form-field class="mat-fix-border-top textarea">
   <textarea matInput
-
             [formControl]="formControl"
             (change)="onCommentChange()">
   </textarea>
@@ -9,7 +8,7 @@
 <br><br>
 
 <mat-form-field class="mat-fix-border-top select">
-  <mat-label>Выберите статус</mat-label>
+  <mat-label>label</mat-label>
   <mat-select [(value)]="selected">
     <mat-option *ngFor="let option of optionList"
                 [value]="option.id">
