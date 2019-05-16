@@ -1,0 +1,11 @@
+.base {
+  width: 800px;
+  height: 500px;
+  background-color: #a1a1a1;
+  display: flex;
+
+  transition: height 1s ease;
+}
+.toggle {
+  height: 0;
+}

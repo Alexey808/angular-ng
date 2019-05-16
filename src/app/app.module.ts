@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { MatTestComponent } from './components/mat-test/mat-test.component';
+import { TransitionShowHiddenComponent } from './components/transition-show-hidden/transition-show-hidden.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MatTestComponent
+    MatTestComponent,
+    TransitionShowHiddenComponent
   ],
   imports: [
     BrowserModule,
